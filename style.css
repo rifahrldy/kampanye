@@ -82,6 +82,7 @@
 .workingspace   {
     margin-top: 120px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .workingspace h3    {
@@ -102,6 +103,20 @@
     margin: 30px 0;
 }
 
+.gallery    {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.dukungan    {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 .testimonial    {
     margin-top: 100px;
 }
@@ -142,6 +157,7 @@
     text-align: center;
 }
 
+
 /* Footer */
 
 .footer    {
@@ -152,6 +168,35 @@
     color: #acacac;
     font-size: 18px;
 }
+    /* From*/
+.form {
+    background-color: brown;
+    height: 300px;
+}
+.from-group {
+    padding-top: 10px;
+}
+/* Button to top */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #7FFF00; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
 
 /* Destktop Version */
 
@@ -170,11 +215,11 @@
     .nav-link:hover::after  {
         content: '';
         display: block;
-        border-bottom: 3px solid rgb(53, 2, 240) ;
+        border-bottom: 3px solid #7FFF00;
         width: 50%;
         margin: auto;
         padding-bottom: 5px;
-        margin-bottom: -8px;
+        /* margin-bottom: -8px; */
     }
 
     .jumbotron  {
@@ -192,5 +237,11 @@
 
     .testimonial h5{
         font-size: 32px;
+    }
+    .gallery    {
+        font-size: 52px;
+    }
+    .dukungan   {
+        font-size: 52px;
     }
 }
